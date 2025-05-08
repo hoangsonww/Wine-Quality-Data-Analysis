@@ -12,12 +12,9 @@ A comprehensive R script that downloads, cleans, and analyzes the UCI Wine Quali
 4. [Installation](#installation)
 5. [Usage](#usage)
 6. [Script Breakdown](#script-breakdown)
-7. [Key Visualizations](#key-visualizations)
-8. [Principal Component Analysis](#principal-component-analysis)
-9. [Regression Modeling](#regression-modeling)
-10. [Extending & Customizing](#extending--customizing)
-11. [Data Sources & Citations](#data-sources--citations)
-12. [License](#license)
+7. [Extending & Customizing](#extending--customizing)
+8. [Data Sources & Citations](#data-sources--citations)
+9. [License](#license)
 
 ---
 
@@ -62,6 +59,38 @@ Ideal for data scientists, statisticians, and wine enthusiasts seeking a reprodu
    * Linear regression of numeric quality on alcohol, sulphates, pH, and type
    * Model summary and residuals vs. fitted diagnostic
    * Scatter of fitted vs. actual quality
+
+<p align="center">
+  <img src="img/wine-1.png" width="100%" />
+</p>
+
+<p align="center">
+  <img src="img/wine-2.png" width="100%" />
+</p>
+
+<p align="center">
+  <img src="img/wine-3.png" width="100%" />
+</p>
+
+<p align="center">
+  <img src="img/wine-4.png" width="100%" />
+</p>
+
+<p align="center">
+  <img src="img/wine-5.png" width="100%" />
+</p>
+
+<p align="center">
+  <img src="img/wine-6.png" width="100%" />
+</p>
+
+<p align="center">
+  <img src="img/wine-7.png" width="100%" />
+</p>
+
+<p align="center">
+  <img src="img/wine-8.png" width="100%" />
+</p>
 
 ---
 
@@ -151,52 +180,7 @@ The script will:
    * Summary printed to console
    * Residuals vs. fitted plot
    * Fitted vs. actual scatter
-
----
-
-## Key Visualizations
-
-<p align="center">
-  <img src="img/quality-by-type.png" width="60%" />
-</p>
-
-<p align="center">
-  <img src="img/alcohol-vs-quality.png" width="60%" />
-</p>
-
-<p align="center">
-  <img src="img/boxplots-attributes.png" width="60%" />
-</p>
-
-<p align="center">
-  <img src="img/corr-heatmap.png" width="60%" />
-</p>
-
----
-
-## Principal Component Analysis
-
-<p align="center">
-  <img src="img/pca-scree.png" width="60%" />
-</p>
-
-<p align="center">
-  <img src="img/pca-biplot.png" width="60%" />
-</p>
-
----
-
-## Regression Modeling
-
-<p align="center">
-  <img src="img/fitted-vs-actual.png" width="60%" />
-</p>
-
-Interpretation:
-
-* **R²**, **coefficients**, and **p-values** printed in console
-* Diagnostic plot (`Residuals vs Fitted`) helps assess homoscedasticity
-
+  
 ---
 
 ## Extending & Customizing
