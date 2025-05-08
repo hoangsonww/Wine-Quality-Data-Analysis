@@ -88,6 +88,18 @@ Ideal for data scientists, statisticians, and wine enthusiasts seeking a reprodu
   <img src="img/wine-7.png" width="100%" />
 </p>
 
+<p align="center">
+  <img src="img/wine-8.png" width="100%" />
+</p>
+
+<p align="center">
+  <img src="img/wine-9.png" width="100%" />
+</p>
+
+<p align="center">
+  <img src="img/wine-10.png" width="100%" />
+</p>
+
 ---
 
 ## Prerequisites
